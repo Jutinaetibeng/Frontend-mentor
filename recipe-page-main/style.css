@@ -1,0 +1,97 @@
+body {
+  font-family: Outfit, sans-serif;
+  background-color: #f3e5d8;
+  color: #5c534d;
+}
+
+.container {
+  width: 700px;
+  background-color: white;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: normal;
+  color: #2b2724;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 800;
+  color: #8a4430;
+}
+
+.intro {
+  line-height: 24px;
+}
+
+.prep-time {
+  background-color: #fff5fb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.prep-time h2 {
+  color: #7a2450;
+  font-family: Outfit, sans-serif;
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 24px;
+}
+
+.instructions li::marker {
+  color: #8a4430;
+  font-weight: bold;
+}
+
+.ingredients li::marker {
+  color: #8a4430;
+}
+
+.ingredients {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.instructions {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  display: none;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+td:last-child {
+  font-weight: bold;
+  color: #8a4430;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 12px;
+}
